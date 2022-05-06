@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package manejoclases03;
 
 public class Computadora {
@@ -25,5 +21,22 @@ public class Computadora {
     public double obtenerMemoria(){
         return memoria;
     }
+    
+    public Computadora(double m){
+        memoria = m; 
+ 
+    }
+    public Computadora(String tipo){
+        tipoProcesador = tipo; 
+ 
+    }
+    public Computadora(String tipo, double men){
+        tipoProcesador = tipo;
+        memoria = men;
+ 
+    }
+    
+        
+    
     
 }

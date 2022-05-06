@@ -25,9 +25,15 @@ public class FacturaTelefonica {
         numeroTelefono = numTel;
         minutosMes = mMes;
         valorMinuto = vMinuto;
-
+        
+    }
+    
+    public FacturaTelefonica(String n){
+        numeroTelefono = n;
+    
     }
 
+    
     public void establecerNumeroTelefono(String c) {
         numeroTelefono = c;
     }
